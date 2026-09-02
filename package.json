@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "@lumen/cli",
   "version": "0.1.0",
   "type": "module",
@@ -24,7 +24,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@lumen/reload": "workspace:*",
+    "@lumen/reload": "git+https://github.com/lumen-ts/reload.git",
     "commander": "^14.0.0"
   },
   "devDependencies": {
